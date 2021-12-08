@@ -9,7 +9,7 @@ import java.util.Properties;
 public class FileReaderUtils {
 	
 	static String propVal;
-	final static String filePath = ".\\src\\test\\resources\\testdata\\config.properties";
+	final static String filePath = "./src/test/resources/testdata/config.properties";
 	static FileInputStream fis = null;
 
 	public static String getPropertyValue(String propertyKey) {
