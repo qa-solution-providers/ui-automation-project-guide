@@ -15,7 +15,7 @@ public class BaseClass {
 	final static String chromeProperty="webdriver.chrome.driver";
 	final static String firefoxProperty="webdriver.gecko.driver";
 	final static String edgeProperty="webdriver.edge.driver";
-	final static String chromeDriverPath="./src/main/resources/drivers/chromedriver.exe";
+	final static String chromeDriverPath="./src/main/resources/drivers/chromedriver";
 	final static String geckoDriverPath="./src/main/resources/drivers/geckodriver.exe";
 	final static String edgeDriverPath="./src/main/resources/drivers/msedgedriver.exe";
 	final static String browserType=FileReaderUtils.getPropertyValue("browser");
